@@ -144,25 +144,3 @@ You can also watch the server logs with this command:
 ```bash
 tail -n 20 -f ~/Library/Logs/Claude/mcp-server-mcp-obsidian.log
 ```
-
-### My Working Copy
-
-{
-  "mcpServers": {
-    "mcp-obsidian": {
-      "command": "C:/Users/pauld/.local/bin/uv.exe",
-      "args": [
-        "--directory",
-        "D:/Obsidian Resources/Demo Vaults/AI Research Vault/mcp-obsidian",
-        "run",
-        "mcp-obsidian"
-      ]
-    },
-    "obsidian-mcp-tools": {
-      "command": "D:\\Obsidian Resources\\Demo Vaults\\AI Research Vault\\.obsidian\\plugins\\mcp-tools\\bin\\mcp-server.exe",
-      "env": {
-        "OBSIDIAN_API_KEY": "df6d799e5e0b5734435eae1b105e3115943f414139b2b65e58cea4d4df9cd4a0"
-      }
-    }
-  }
-}
